@@ -1,19 +1,19 @@
-# Assignment 01 - Variable, Expression, Input and Output
+# Assignment 02 - Conditional
 
 
 ## Tiếng Việt
 
 ### Yêu cầu:
 
-Viết một chương trình để tính tiền chi trả cho nhân viên. Với hai thông số được nhập vào từ bàn phím là số giờ công (*hours*) và số tiền phải trả cho mỗi giờ (*rate*). In ra màn hình số tiền phải trả (*price*). Tên biến phải đặt theo quy ước là (*hours*, *rate* và *price*).
+Viết một chương trình để tính tiền chi trả cho nhân viên. Với hai thông số được nhập vào từ bàn phím là số giờ công (*hours*) và số tiền phải trả cho mỗi giờ (*rate*). Với điều kiện nếu nhân viên làm việc trên 40 tiếng thì 40 tiếng đầu chi phí sẽ giống như quy định, những giờ sau đó sẽ tăng lên gấp rưỡi. In ra màn hình số tiền phải trả (*price*). Tên biến phải đặt theo quy ước là (*hours*, *rate* và *price*).
 
 ### Ví dụ:
 
 ```
-Nhập số giờ: 35
-Nhập số tiền mỗi giờ: 2.75
+Nhập số giờ: 45
+Nhập số tiền mỗi giờ: 3
 
-Số tiền phải trả là: 96.25
+Số tiền phải trả là: 142.5
 ```
 
 ### Chú ý:
@@ -27,15 +27,15 @@ Số tiền phải trả là: 96.25
 
 ### Requirement:
 
-Write a program to calculate employee pay. With two parameters entered from the keyboard are the work hours (hours) and the rate per hour (rate). Print to the screen the amount to be paid (price).
+Write a program to calculate employee pay. With two parameters entered from the keyboard are the work hours (hours) and the rate per hour (rate). Provided that if employees work more than 40 hours, the first 40 hours will be the same as the regulations, the following hours will increase by half. Print to the screen the amount to be paid (price).
 
 ### For example:
 
 ```
-Enter hours: 35
-Enter rate: 2.75
+Enter hours: 45
+Enter rate: 3
 
-The price: 96.25
+The price: 142.5
 ```
 
 ### Note:
